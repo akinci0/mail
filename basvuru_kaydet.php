@@ -11,7 +11,7 @@ include 'baglanti.php';
 if (file_exists('mail_helper.php')) include 'mail_helper.php';
 
 // --- SENİN API ANAHTARIN ---
-$apiKey = "AIzaSyA3bE6xanErBWWXWw7aXQJVQv5U2goBPuw"; 
+$apiKey = "AIzaSyA3bE6xanErBWWXWw7BPuw"; 
 
 $response = ["success" => false, "message" => "Bilinmeyen hata"];
 
