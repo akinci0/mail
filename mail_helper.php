@@ -20,8 +20,8 @@ function mailGonder($aliciEmail, $aliciAd, $durum = 'davet', $puan = 0) {
         $mail->isSMTP();                                            
         $mail->Host       = 'smtp.gmail.com';                     
         $mail->SMTPAuth   = true;                                   
-        $mail->Username   = 'yusuf.cskn163@gmail.com'; // <--- DOLDUR
-        $mail->Password   = 'yncx dncd wltd drsk';    // <--- DOLDUR
+        $mail->Username   = 'yusuf.@gmail.com'; // <--- DOLDUR
+        $mail->Password   = 'yncx  drsk';    // <--- DOLDUR
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;            
         $mail->Port       = 587;                                    
         $mail->CharSet    = 'UTF-8';
